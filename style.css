@@ -1,0 +1,84 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* HTML5 display-role reset for older browsers */
+
+
+/*对body的部分设计行高*/
+body {
+	line-height: 1;
+}
+
+/*图像列表的样式*/
+
+ol, ul {
+	list-style: none; 
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Default Styles 
+--------------------------------------------------------------------*/
+
+body {
+	background: url('img/light_alu.png');
+	font-family: 'Droid Sans', sans-serif;
+}
+/*图像的左侧和右侧均不允许出现浮动元素：*/
+.clearfix {
+	clear: both;
+}
+
+.wrap {
+	width: 90%;
+	margin: 4em auto;
+}
+
+	nav {
+			background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+			background-image: linear-gradient(#fff, #ccc);
+			border-radius: 6px;
+			box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+			padding: 0 10px;
+			position: relative;
+}
+/*.menu li是对列表标签中li 的标签进行设定*/
+.menu li {
+	float: left;
+	
+}
+
+.menu li a {
+	color: #444; /*对标签<li>中的链接字体颜色的设定*/
+	display: block;/*元素的前后有换行符*/
+	font-size: 14px;
+	line-height: 20px;/*设计行高*/
+	padding: 6px 12px;/*上下内边距为6px,左右内边距为12px*/
+	margin: 8px 8px;/*上下外边距为8px,左右外边距为8px*/
+	vertical-align: middle;/*设计元素的处置对齐方式*/
+	text-decoration: none;/*对文本的修饰*/
+	
+}
+/*hover 鼠标指针浮动在其上的元素,只是对鼠标点字进行设定*/
+.menu li a:hover {
+	background: -webkit-gradient(linear, center top, center bottom, from(#ededed), to(#fff));
+	background-image: linear-gradient(#ededed, #fff);
+	border-radius: 12px;/*元素添加圆角边框：*/
+	box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+	
+}
+
