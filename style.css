@@ -47,6 +47,12 @@ body {
 	margin: 4em auto;
 	margin-top:8px;
 }
+.main1{
+	margin-top:2px;
+}
+.main11{
+	margin-top:2px;
+}
 
 	nav {
 			background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
